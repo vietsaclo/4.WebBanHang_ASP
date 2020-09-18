@@ -1,0 +1,15 @@
+D:\[Đồng Bộ Lên One Drive]\[My Course]All\ASP.net & Boostrap 4\[20-05-2019]Do_An_Web_Final\[20-05-2019]Do_An_Web_Final\bin\[20-05-2019]Do_An_Web_Final.dll
+D:\[Đồng Bộ Lên One Drive]\[My Course]All\ASP.net & Boostrap 4\[20-05-2019]Do_An_Web_Final\[20-05-2019]Do_An_Web_Final\bin\[20-05-2019]Do_An_Web_Final.pdb
+D:\[Đồng Bộ Lên One Drive]\[My Course]All\ASP.net & Boostrap 4\[20-05-2019]Do_An_Web_Final\[20-05-2019]Do_An_Web_Final\bin\FreeTextBox.dll
+D:\[Đồng Bộ Lên One Drive]\[My Course]All\ASP.net & Boostrap 4\[20-05-2019]Do_An_Web_Final\[20-05-2019]Do_An_Web_Final\obj\Debug\[20-05-2019]Do_An_Web_Final.csprojResolveAssemblyReference.cache
+D:\[Đồng Bộ Lên One Drive]\[My Course]All\ASP.net & Boostrap 4\[20-05-2019]Do_An_Web_Final\[20-05-2019]Do_An_Web_Final\obj\Debug\[20-05-2019]Do_An_Web_Final.dll
+D:\[Đồng Bộ Lên One Drive]\[My Course]All\ASP.net & Boostrap 4\[20-05-2019]Do_An_Web_Final\[20-05-2019]Do_An_Web_Final\obj\Debug\[20-05-2019]Do_An_Web_Final.pdb
+D:\08DHTH1\Project\Web\[20-05-2019]Do_An_Web_Final\[20-05-2019]Do_An_Web_Final\bin\[20-05-2019]Do_An_Web_Final.dll.config
+D:\08DHTH1\Project\Web\[20-05-2019]Do_An_Web_Final\[20-05-2019]Do_An_Web_Final\bin\[20-05-2019]Do_An_Web_Final.dll
+D:\08DHTH1\Project\Web\[20-05-2019]Do_An_Web_Final\[20-05-2019]Do_An_Web_Final\bin\[20-05-2019]Do_An_Web_Final.pdb
+D:\08DHTH1\Project\Web\[20-05-2019]Do_An_Web_Final\[20-05-2019]Do_An_Web_Final\bin\FreeTextBox.dll
+D:\08DHTH1\Project\Web\[20-05-2019]Do_An_Web_Final\[20-05-2019]Do_An_Web_Final\obj\Debug\[20-05-2019]Do_An_Web_Final.csprojAssemblyReference.cache
+D:\08DHTH1\Project\Web\[20-05-2019]Do_An_Web_Final\[20-05-2019]Do_An_Web_Final\obj\Debug\[20-05-2019]Do_An_Web_Final.csproj.CoreCompileInputs.cache
+D:\08DHTH1\Project\Web\[20-05-2019]Do_An_Web_Final\[20-05-2019]Do_An_Web_Final\obj\Debug\[20-05-2019]Do_An_Web_Final.csproj.CopyComplete
+D:\08DHTH1\Project\Web\[20-05-2019]Do_An_Web_Final\[20-05-2019]Do_An_Web_Final\obj\Debug\[20-05-2019]Do_An_Web_Final.dll
+D:\08DHTH1\Project\Web\[20-05-2019]Do_An_Web_Final\[20-05-2019]Do_An_Web_Final\obj\Debug\[20-05-2019]Do_An_Web_Final.pdb

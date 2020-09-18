@@ -1,0 +1,28 @@
+﻿.op_1{opacity:0.1;}
+.op_2{opacity:0.2;}
+.op_3{opacity:0.3;}
+.op_4{opacity:0.4;}
+.op_5{opacity:0.5;}
+.op_6{opacity:0.6;}
+.op_7{opacity:0.7;}
+.op_8{opacity:0.8;}
+.op_9{opacity:0.9;}
+
+.form_signIn{min-height:100px; width: 300px;text-align:center;margin:30px auto;}
+
+.menu_doc{width: 10%;height:500px;float:left;}
+.content{width: 90%;height: 500px;float:left;}
+.clear{content:"";display:block;height:0;clear:both;}
+
+.icon_hangSX{float:left;}
+.img_viewProduct{width: 300px; height:300px;}
+
+.hover_img{opacity:1;}
+.hover_img:hover{opacity:0.3;}
+
+.overHidd{overflow:hidden;}
+
+.center_page {margin: auto;}
+
+.btn_tangSoLuong{width:30px !important;height: 30px !important;font-size: 17px;text-align: center;background:none;color: black;outline:none;}
+.tb_showSoLuong{border-radius: 3px;width:50px !important;}

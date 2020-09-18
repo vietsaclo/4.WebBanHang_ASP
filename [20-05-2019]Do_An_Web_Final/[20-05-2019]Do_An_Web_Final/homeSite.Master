@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="homeSite.master.cs" Inherits="Do_An_Web_Final.homeSite" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>DO AN MOM THUC HANG WEB</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="myStyle/myCustom.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Header start-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">SHOP-INFO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="default.aspx">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contract
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="signIn.aspx" class="mr-1 btn-outline-light btn" role="button" id="btn_signIn" runat="server">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="signUp.aspx" class="mr-1 btn-outline-danger btn" role="button" id="btn_signUp" runat="server">Sign Up</a>
+                    </li>
+                    <li class="nav-item dropdown" id="role_dropDownOf_user" runat="server" visible="true">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropDownOf_user" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">wellcom
+                            <asp:Label ID="lb_showUserName" runat="server"></asp:Label>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropDownOf_user">
+                            <a href="#" class="dropdown-item">Thông tin user</a>
+                            <div class="dropdown-divider"></div>
+                            <asp:Button ID="btn_dangXuat_user" runat="server" CssClass="btn-block btn-outline-danger btn" Text="Đăng xuất" OnClick="btn_dangXuat_user_clicked" />
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" id="role_dropDownOf_admin" runat="server" visible="true">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropDownOf_admin" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">wellcome
+                            <asp:Label ID="lb_showAdminName" runat="server"></asp:Label>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropDownOf_admin">
+                            <a href="#" class="dropdown-item">Thông tin admin</a>
+                            <a href="administrator.aspx" class="dropdown-item">Quản Trị WebSite</a>
+                            <div class="dropdown-divider"></div>
+                            <asp:Button ID="btn_dangXuat_admin" runat="server" CssClass="btn-block btn-outline-danger btn" Text="Đăng xuất" OnClick="btn_dangXuat_admin_clicked" />
+                        </div>
+                    </li>
+                    <li class="nav-item" id="icon_gioHang" runat="server" visible="false">
+                        <a href="gioHang.aspx">
+                            <img src="images_up/logoWeb/icon_gioHang.png" style="width: 35px; height: 35px;" /></a>
+                    </li>
+                </ul>
+                <div class="form-inline">
+                    <asp:TextBox ID="tb_search" runat="server" placeHolder="Search" CssClass="mr-1 form-control"></asp:TextBox>
+                    <asp:Button ID="btn_search" runat="server" Text="Search" CssClass="mr-1 btn-outline-success btn" OnClick="btn_searchClicked" />
+                </div>
+            </div>
+        </nav>
+        <!-- Header end-->
+
+        <div>
+            <asp:ContentPlaceHolder ID="placeHoder_homeSite" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- footer start-->
+        <footer class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 text-white bg-dark card">
+                        <div class="text-center font-weight-bold text-uppercase card-header">Bình Luận Gần Đây</div>
+                        <div class="card-body">Item</div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 text-white bg-dark card">
+                        <div class="text-center font-weight-bold text-uppercase card-header">Thông Tin Website</div>
+                        <div class="card-body">Item</div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 text-white bg-dark card">
+                        <div class="text-center font-weight-bold text-uppercase card-header">Bài Viết Gần Đây</div>
+                        <div class="card-body">Item</div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 text-white bg-dark card">
+                        <div class="text-center font-weight-bold text-uppercase card-header">Liên Hệ Với Chúng Tôi</div>
+                        <div class="card-body">Item</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end-->
+    </form>
+    <!-- script-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- script-->
+</body>
+</html>
